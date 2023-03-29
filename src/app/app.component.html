@@ -1,1 +1,47 @@
-<router-outlet></router-outlet>
+<nav class="navbar bg-body-tertiary">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="./src/assets/logo.png" alt="Bootstrap" width="30" height="24">
+    </a>
+  </div>
+</nav>
+
+<!-- main login section -->
+  
+<div class="container-fluid my-2">
+  <div class="row my-2">
+    <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+      <main class="py-5 d-flex align-items-center justify-content-center">
+        <form class="py-5 w-100">
+          <h1 class="h3 mb-3 pt-5 fw-normal text-center">Please sign in</h1>
+
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+
+          <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="remember-me"> Remember me
+            </label>
+          </div>
+
+          <button class="btn btn-lg btn-primary w-100" type="submit">Sign in</button>
+        </form>
+      </main>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid py-3 bg-light position-relative fixed-bottom">
+  <div class="row">
+    <div class="col-12">
+      <p class="lead text-center">&copy; 2023 Asset Management</p>
+    </div>
+  </div>
+</footer>

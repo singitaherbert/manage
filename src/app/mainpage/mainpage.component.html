@@ -12,13 +12,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Management</title>
     <style>
-      /* @media (max-width: 576px) {
+      @media (max-width: 576px) {
         .col-sm-9 {
           display: none;
         }
       }
-      body {
-        background-color: #f2f2f29a;
+      /* body {
+        background-color: #f2f2f2;
         font-size: 16px;
         font-family: Arial, sans-serif;
       }
@@ -28,15 +28,15 @@
         color: #333333;
         text-align: center;
         margin-top: 50px;
-      } */
+      }
 
-      /* .container {
+      .container {
         max-width: 1000px;
         margin: 0 auto;
         padding: 20px;
-      } */
+      }
 
-      /* .box {
+      .box {
         background-color: #ffffff;
         padding: 20px;
         margin: 20px;
@@ -59,7 +59,7 @@
       }
 
       /* Mobile styles */
-      /* @media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 768px) {
         h1 {
           font-size: 1.5rem;
           margin-top: 30px;
@@ -77,8 +77,8 @@
         .item {
           width: 100%;
           margin-bottom: 10px;
-        } */
-      /* } */ */
+        }
+      } */
     </style>
   </head>
   <body>
@@ -86,14 +86,14 @@
       <div class="container">
         <a class="navbar-brand" href="#">
           <img
-            src="../../assets/splash.png"
+            src="im.png"
             alt="Bootstrap"
             width="150"
             height="100"
           />
         </a>
 
-        <h1 id="about" class="display-2 lead text-center">
+        <h1  class="display-2 lead text-center">
           Asset Management
         </h1>
       </div>
@@ -174,7 +174,7 @@
                 aria-expanded="false"
               >
                 <img
-                  src="../../assets/icon.jpg"
+                  src="https://github.com/mdo.png"
                   alt=""
                   width="32"
                   height="32"
@@ -183,8 +183,8 @@
                 <strong>Singita Herbert</strong>
               </a>
               <ul class="dropdown-menu text-small shadow">
-                <li><a class="dropdown-item" href="#">Settings</a></li>
-                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><a class="dropdown-item" href="comingsoon.html">Settings</a></li>
+                <li><a class="dropdown-item" href="comingsoon.html">Profile</a></li>
                 <li><hr class="dropdown-divider" /></li>
                 <li><a class="dropdown-item" href="#">Sign out</a></li>
               </ul>
@@ -195,7 +195,7 @@
           <div class="row">
             <div class="col-sm-4">
               <div class="card" width="16" height="16">
-                <img src="../../assets/truck.jpg" class="card-img-top" alt="..." />
+                <img src="../Images/truck.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#truckModal">
                     View Trucks
@@ -203,9 +203,10 @@
                 </div>
               </div>
             </div>
+
             <div class="col-sm-4">
               <div class="card" width="16" height="16">
-                <img src="../../assets/car.jpg" class="card-img-top" alt="..." />
+                <img src="../Images/car.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#carModal">
                     View Cars
@@ -213,34 +214,37 @@
                 </div>
               </div>
             </div>
+
             <div class="col-sm-4">
               <div class="card" width="16" height="16">
                 <img
-                  src="../../assets/generator.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#generatorModal1">
-                    View Generators
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4 py-2">
-              <div class="card" width="16" height="16">
-                <img
-                  src="../../assets/fridge.jpg"
+                  src="../Images/generator.jpg"
                   class="card-img-top"
                   alt="..."
                 />
                 <div class="card-body">
 
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#generatorModal1">
+                    View Generators
+                  </button>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4 py-2">
+              <div class="card" width="16" height="16">
+                <img
+                  src="../Images/fridge.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
 
                   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#refrigeratorModal">
                     View Refrigerators
                   </button>
-
+                  
                 </div>
               </div>
             </div>
@@ -249,7 +253,7 @@
       </div>
     </div>
 
-    <!-- modals -->
+<!-- modals -->
 
 <!-- truck modal -->
 <div class="modal fade" id="truckModal" tabindex="-1" aria-labelledby="truckModalLabel" aria-hidden="true">
@@ -455,3 +459,4 @@
     ></script>
   </body>
 </html>
+
